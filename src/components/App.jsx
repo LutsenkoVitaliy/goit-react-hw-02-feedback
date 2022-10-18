@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Section from "./Section/Section";
 import Notification from './Notification/Notification';
-// import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
+import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
 import Statistics from './Statistics/Statistics';
 
 class App extends Component {
@@ -24,7 +24,7 @@ class App extends Component {
     return (
   <>
   <Section title="Please leave feedback">
-    {/* <FeedbackOptions options={} onLeaveFeedback={}></FeedbackOptions> */}
+    <FeedbackOptions options={Object.keys(this.state)} ></FeedbackOptions>
   </Section>
   <Section title="Statistics">
    {this.countTotalFeedback() ?
