@@ -1,13 +1,10 @@
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 
 export default function FeedbackOptions() {
   return (
-    <>
-    </>
+    <div>
+    </div>
  ) 
 }
 
 
-FeedbackOptions.protoType = {
-
-}
